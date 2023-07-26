@@ -32,14 +32,14 @@ CONFIGURATION = Debug
 #############################################
 # Include rules file.
 
-include CMakeFiles/rules.ninja
+include CMakeFiles\rules.ninja
 
 # =============================================================================
 
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/root/Desktop/Repositories/mesh-saliency/cmake-build-debug/
+cmake_ninja_workdir = C$:\Users\root\Desktop\Repositories\mesh-saliency\cmake-build-debug\
 # =============================================================================
 # Object build statements for EXECUTABLE target mesh-saliency
 
@@ -47,63 +47,71 @@ cmake_ninja_workdir = C$:/Users/root/Desktop/Repositories/mesh-saliency/cmake-bu
 #############################################
 # Order-only phony target for mesh-saliency
 
-build cmake_object_order_depends_target_mesh-saliency: phony || CMakeFiles/mesh-saliency.dir
+build cmake_object_order_depends_target_mesh-saliency: phony || CMakeFiles\mesh-saliency.dir
 
-build CMakeFiles/mesh-saliency.dir/BoundingBox.cpp.obj: CXX_COMPILER__mesh-saliency_Debug C$:/Users/root/Desktop/Repositories/mesh-saliency/BoundingBox.cpp || cmake_object_order_depends_target_mesh-saliency
-  DEP_FILE = CMakeFiles\mesh-saliency.dir\BoundingBox.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/root/Desktop/Repositories/mesh-saliency/./eigen-3.4.0
+build CMakeFiles\mesh-saliency.dir\BoundingBox.cpp.obj: CXX_COMPILER__mesh-saliency_Debug C$:\Users\root\Desktop\Repositories\mesh-saliency\BoundingBox.cpp || cmake_object_order_depends_target_mesh-saliency
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi -std:c++17
+  INCLUDES = -IC:\Users\root\Desktop\Repositories\mesh-saliency\.\eigen-3.4.0
   OBJECT_DIR = CMakeFiles\mesh-saliency.dir
   OBJECT_FILE_DIR = CMakeFiles\mesh-saliency.dir
+  TARGET_COMPILE_PDB = CMakeFiles\mesh-saliency.dir\
+  TARGET_PDB = mesh-saliency.pdb
 
-build CMakeFiles/mesh-saliency.dir/Edge.cpp.obj: CXX_COMPILER__mesh-saliency_Debug C$:/Users/root/Desktop/Repositories/mesh-saliency/Edge.cpp || cmake_object_order_depends_target_mesh-saliency
-  DEP_FILE = CMakeFiles\mesh-saliency.dir\Edge.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/root/Desktop/Repositories/mesh-saliency/./eigen-3.4.0
+build CMakeFiles\mesh-saliency.dir\Edge.cpp.obj: CXX_COMPILER__mesh-saliency_Debug C$:\Users\root\Desktop\Repositories\mesh-saliency\Edge.cpp || cmake_object_order_depends_target_mesh-saliency
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi -std:c++17
+  INCLUDES = -IC:\Users\root\Desktop\Repositories\mesh-saliency\.\eigen-3.4.0
   OBJECT_DIR = CMakeFiles\mesh-saliency.dir
   OBJECT_FILE_DIR = CMakeFiles\mesh-saliency.dir
+  TARGET_COMPILE_PDB = CMakeFiles\mesh-saliency.dir\
+  TARGET_PDB = mesh-saliency.pdb
 
-build CMakeFiles/mesh-saliency.dir/Face.cpp.obj: CXX_COMPILER__mesh-saliency_Debug C$:/Users/root/Desktop/Repositories/mesh-saliency/Face.cpp || cmake_object_order_depends_target_mesh-saliency
-  DEP_FILE = CMakeFiles\mesh-saliency.dir\Face.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/root/Desktop/Repositories/mesh-saliency/./eigen-3.4.0
+build CMakeFiles\mesh-saliency.dir\Face.cpp.obj: CXX_COMPILER__mesh-saliency_Debug C$:\Users\root\Desktop\Repositories\mesh-saliency\Face.cpp || cmake_object_order_depends_target_mesh-saliency
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi -std:c++17
+  INCLUDES = -IC:\Users\root\Desktop\Repositories\mesh-saliency\.\eigen-3.4.0
   OBJECT_DIR = CMakeFiles\mesh-saliency.dir
   OBJECT_FILE_DIR = CMakeFiles\mesh-saliency.dir
+  TARGET_COMPILE_PDB = CMakeFiles\mesh-saliency.dir\
+  TARGET_PDB = mesh-saliency.pdb
 
-build CMakeFiles/mesh-saliency.dir/HalfEdge.cpp.obj: CXX_COMPILER__mesh-saliency_Debug C$:/Users/root/Desktop/Repositories/mesh-saliency/HalfEdge.cpp || cmake_object_order_depends_target_mesh-saliency
-  DEP_FILE = CMakeFiles\mesh-saliency.dir\HalfEdge.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/root/Desktop/Repositories/mesh-saliency/./eigen-3.4.0
+build CMakeFiles\mesh-saliency.dir\HalfEdge.cpp.obj: CXX_COMPILER__mesh-saliency_Debug C$:\Users\root\Desktop\Repositories\mesh-saliency\HalfEdge.cpp || cmake_object_order_depends_target_mesh-saliency
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi -std:c++17
+  INCLUDES = -IC:\Users\root\Desktop\Repositories\mesh-saliency\.\eigen-3.4.0
   OBJECT_DIR = CMakeFiles\mesh-saliency.dir
   OBJECT_FILE_DIR = CMakeFiles\mesh-saliency.dir
+  TARGET_COMPILE_PDB = CMakeFiles\mesh-saliency.dir\
+  TARGET_PDB = mesh-saliency.pdb
 
-build CMakeFiles/mesh-saliency.dir/Mesh.cpp.obj: CXX_COMPILER__mesh-saliency_Debug C$:/Users/root/Desktop/Repositories/mesh-saliency/Mesh.cpp || cmake_object_order_depends_target_mesh-saliency
-  DEP_FILE = CMakeFiles\mesh-saliency.dir\Mesh.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/root/Desktop/Repositories/mesh-saliency/./eigen-3.4.0
+build CMakeFiles\mesh-saliency.dir\Mesh.cpp.obj: CXX_COMPILER__mesh-saliency_Debug C$:\Users\root\Desktop\Repositories\mesh-saliency\Mesh.cpp || cmake_object_order_depends_target_mesh-saliency
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi -std:c++17
+  INCLUDES = -IC:\Users\root\Desktop\Repositories\mesh-saliency\.\eigen-3.4.0
   OBJECT_DIR = CMakeFiles\mesh-saliency.dir
   OBJECT_FILE_DIR = CMakeFiles\mesh-saliency.dir
+  TARGET_COMPILE_PDB = CMakeFiles\mesh-saliency.dir\
+  TARGET_PDB = mesh-saliency.pdb
 
-build CMakeFiles/mesh-saliency.dir/MeshIO.cpp.obj: CXX_COMPILER__mesh-saliency_Debug C$:/Users/root/Desktop/Repositories/mesh-saliency/MeshIO.cpp || cmake_object_order_depends_target_mesh-saliency
-  DEP_FILE = CMakeFiles\mesh-saliency.dir\MeshIO.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/root/Desktop/Repositories/mesh-saliency/./eigen-3.4.0
+build CMakeFiles\mesh-saliency.dir\MeshIO.cpp.obj: CXX_COMPILER__mesh-saliency_Debug C$:\Users\root\Desktop\Repositories\mesh-saliency\MeshIO.cpp || cmake_object_order_depends_target_mesh-saliency
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi -std:c++17
+  INCLUDES = -IC:\Users\root\Desktop\Repositories\mesh-saliency\.\eigen-3.4.0
   OBJECT_DIR = CMakeFiles\mesh-saliency.dir
   OBJECT_FILE_DIR = CMakeFiles\mesh-saliency.dir
+  TARGET_COMPILE_PDB = CMakeFiles\mesh-saliency.dir\
+  TARGET_PDB = mesh-saliency.pdb
 
-build CMakeFiles/mesh-saliency.dir/Vertex.cpp.obj: CXX_COMPILER__mesh-saliency_Debug C$:/Users/root/Desktop/Repositories/mesh-saliency/Vertex.cpp || cmake_object_order_depends_target_mesh-saliency
-  DEP_FILE = CMakeFiles\mesh-saliency.dir\Vertex.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/root/Desktop/Repositories/mesh-saliency/./eigen-3.4.0
+build CMakeFiles\mesh-saliency.dir\Vertex.cpp.obj: CXX_COMPILER__mesh-saliency_Debug C$:\Users\root\Desktop\Repositories\mesh-saliency\Vertex.cpp || cmake_object_order_depends_target_mesh-saliency
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi -std:c++17
+  INCLUDES = -IC:\Users\root\Desktop\Repositories\mesh-saliency\.\eigen-3.4.0
   OBJECT_DIR = CMakeFiles\mesh-saliency.dir
   OBJECT_FILE_DIR = CMakeFiles\mesh-saliency.dir
+  TARGET_COMPILE_PDB = CMakeFiles\mesh-saliency.dir\
+  TARGET_PDB = mesh-saliency.pdb
 
-build CMakeFiles/mesh-saliency.dir/main.cpp.obj: CXX_COMPILER__mesh-saliency_Debug C$:/Users/root/Desktop/Repositories/mesh-saliency/main.cpp || cmake_object_order_depends_target_mesh-saliency
-  DEP_FILE = CMakeFiles\mesh-saliency.dir\main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/root/Desktop/Repositories/mesh-saliency/./eigen-3.4.0
+build CMakeFiles\mesh-saliency.dir\main.cpp.obj: CXX_COMPILER__mesh-saliency_Debug C$:\Users\root\Desktop\Repositories\mesh-saliency\main.cpp || cmake_object_order_depends_target_mesh-saliency
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi -std:c++17
+  INCLUDES = -IC:\Users\root\Desktop\Repositories\mesh-saliency\.\eigen-3.4.0
   OBJECT_DIR = CMakeFiles\mesh-saliency.dir
   OBJECT_FILE_DIR = CMakeFiles\mesh-saliency.dir
+  TARGET_COMPILE_PDB = CMakeFiles\mesh-saliency.dir\
+  TARGET_PDB = mesh-saliency.pdb
 
 
 # =============================================================================
@@ -113,38 +121,41 @@ build CMakeFiles/mesh-saliency.dir/main.cpp.obj: CXX_COMPILER__mesh-saliency_Deb
 #############################################
 # Link the executable mesh-saliency.exe
 
-build mesh-saliency.exe: CXX_EXECUTABLE_LINKER__mesh-saliency_Debug CMakeFiles/mesh-saliency.dir/BoundingBox.cpp.obj CMakeFiles/mesh-saliency.dir/Edge.cpp.obj CMakeFiles/mesh-saliency.dir/Face.cpp.obj CMakeFiles/mesh-saliency.dir/HalfEdge.cpp.obj CMakeFiles/mesh-saliency.dir/Mesh.cpp.obj CMakeFiles/mesh-saliency.dir/MeshIO.cpp.obj CMakeFiles/mesh-saliency.dir/Vertex.cpp.obj CMakeFiles/mesh-saliency.dir/main.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+build mesh-saliency.exe: CXX_EXECUTABLE_LINKER__mesh-saliency_Debug CMakeFiles\mesh-saliency.dir\BoundingBox.cpp.obj CMakeFiles\mesh-saliency.dir\Edge.cpp.obj CMakeFiles\mesh-saliency.dir\Face.cpp.obj CMakeFiles\mesh-saliency.dir\HalfEdge.cpp.obj CMakeFiles\mesh-saliency.dir\Mesh.cpp.obj CMakeFiles\mesh-saliency.dir\MeshIO.cpp.obj CMakeFiles\mesh-saliency.dir\Vertex.cpp.obj CMakeFiles\mesh-saliency.dir\main.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
+  LINK_FLAGS = /machine:X86 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = glut32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_PATH = -LIBPATH:C:\Users\root\Desktop\Repositories\mesh-saliency\.\glut-3.7.6-bin
   OBJECT_DIR = CMakeFiles\mesh-saliency.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\mesh-saliency.dir\
   TARGET_FILE = mesh-saliency.exe
-  TARGET_IMPLIB = libmesh-saliency.dll.a
-  TARGET_PDB = mesh-saliency.exe.dbg
+  TARGET_IMPLIB = mesh-saliency.lib
+  TARGET_PDB = mesh-saliency.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Users\root\Desktop\Repositories\mesh-saliency\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build edit_cache: phony CMakeFiles/edit_cache.util
+build edit_cache: phony CMakeFiles\edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Users\root\Desktop\Repositories\mesh-saliency\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\root\Desktop\Repositories\mesh-saliency -BC:\Users\root\Desktop\Repositories\mesh-saliency\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
@@ -168,14 +179,14 @@ build all: phony mesh-saliency.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake C$:/Users/root/Desktop/Repositories/mesh-saliency/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeRCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake C$:\Users\root\Desktop\Repositories\mesh-saliency\CMakeLists.txt CMakeCache.txt CMakeFiles\3.25.2\CMakeCCompiler.cmake CMakeFiles\3.25.2\CMakeCXXCompiler.cmake CMakeFiles\3.25.2\CMakeRCCompiler.cmake CMakeFiles\3.25.2\CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake C$:/Users/root/Desktop/Repositories/mesh-saliency/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
+build C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeRCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows.cmake C$:\Program$ Files\JetBrains\CLion$ 2023.1.4\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake C$:\Users\root\Desktop\Repositories\mesh-saliency\CMakeLists.txt CMakeCache.txt CMakeFiles\3.25.2\CMakeCCompiler.cmake CMakeFiles\3.25.2\CMakeCXXCompiler.cmake CMakeFiles\3.25.2\CMakeRCCompiler.cmake CMakeFiles\3.25.2\CMakeSystem.cmake: phony
 
 
 #############################################

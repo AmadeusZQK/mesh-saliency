@@ -8,7 +8,11 @@ file(GLOB SOURCE_FILES "*.cpp")
 
 set(EIGEN3_INCLUDE_DIR "./eigen-3.4.0")
 
+link_directories(./glut-3.7.6-bin)
+
 # 添加Eigen的头文件路径
 include_directories(${EIGEN3_INCLUDE_DIR})
 
-add_executable(mesh-saliency ${SOURCE_FILES})
+add_executable(mesh-saliency
+        ${SOURCE_FILES})
+target_link_libraries(mesh-saliency glut32)

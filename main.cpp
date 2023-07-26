@@ -109,7 +109,8 @@ void keyboard(unsigned char key, int x0, int y0)
 {
     switch (key) {
         case 27 :
-            exit(0);
+            return;
+//            exit(0);
         case 'a':
             x -= 0.03;
             break;
