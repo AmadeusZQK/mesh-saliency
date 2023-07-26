@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <GL/glut.h>
 #include <malloc.h>
 #include <string.h>
 #include <ws2tcpip.h>

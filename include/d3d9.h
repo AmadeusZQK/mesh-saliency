@@ -26,6 +26,7 @@
 #endif
 
 #include <stdlib.h>
+#include <GL/glut.h>
 
 #define COM_NO_WINDOWS_H
 #include <objbase.h>

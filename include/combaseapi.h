@@ -127,6 +127,7 @@ extern "C++" {
 #endif
 
 #include <stdlib.h>
+#include <GL/glut.h>
 
 #define LISet32(li, v) ((li).HighPart = ((LONG) (v)) < 0 ? -1 : 0,(li).LowPart = (v))
 #define ULISet32(li, v) ((li).HighPart = 0,(li).LowPart = (v))

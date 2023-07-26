@@ -25,6 +25,7 @@
 #define _MM_MALLOC_H_INCLUDED
 
 #include <stdlib.h>
+#include <GL/glut.h>
 #if __STDC_HOSTED__
 #include <errno.h>
 #endif

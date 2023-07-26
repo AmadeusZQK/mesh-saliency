@@ -7,6 +7,7 @@
 #define _INC_STDLIB_S
 
 #include <stdlib.h>
+#include <GL/glut.h>
 
 #ifdef __cplusplus
 extern "C" {

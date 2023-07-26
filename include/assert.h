@@ -15,6 +15,7 @@
 #include <crtdefs.h>
 #ifdef __cplusplus
 #include <stdlib.h>
+#include <GL/glut.h>
 #endif
 
 #ifdef __cplusplus
