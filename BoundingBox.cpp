@@ -1,3 +1,4 @@
+#include <Eigen/Core>
 #include "BoundingBox.h"
 
 BoundingBox::BoundingBox():

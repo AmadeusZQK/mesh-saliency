@@ -1,7 +1,6 @@
 #ifndef MESH_H
 #define MESH_H
 
-#include "Types.h"
 #include "Vertex.h"
 #include "Edge.h"
 #include "Face.h"

@@ -1,0 +1,14 @@
+# ninja log v5
+1	103	7120648384526345	build.ninja	d5eff7d71b57554e
+18	942	7120646300076324	CMakeFiles/untitled3.dir/Edge.cpp.obj	a77332626e64a010
+12	987	7120646300525560	CMakeFiles/untitled3.dir/Face.cpp.obj	2bf9d2137e1e3aac
+7	1016	7120646300811199	CMakeFiles/untitled3.dir/HalfEdge.cpp.obj	a8305f587d0702bd
+56	1215	7120646302784589	CMakeFiles/untitled3.dir/Vertex.cpp.obj	bb34ba3d890efb6
+0	1979	7120646310389992	CMakeFiles/untitled3.dir/Mesh.cpp.obj	76c2686085428749
+33	1978	7120646310389992	CMakeFiles/untitled3.dir/MeshIO.cpp.obj	2a9eb9e75ced0f66
+8	891	7120649478746927	CMakeFiles/untitled3.dir/Edge.cpp.obj	f15917087f697db5
+29	939	7120649479245258	CMakeFiles/untitled3.dir/Face.cpp.obj	26c9c88be636508d
+41	978	7120649479623990	CMakeFiles/untitled3.dir/HalfEdge.cpp.obj	88ee5c911cbcd0f6
+57	1138	7120649481188758	CMakeFiles/untitled3.dir/Vertex.cpp.obj	9d53fc812b2e0bb
+8	1734	7120649566712251	CMakeFiles/untitled3.dir/MeshIO.cpp.obj	1a9a646f00fc6a7d
+13	1809	7120649567380031	CMakeFiles/untitled3.dir/Mesh.cpp.obj	55586c23ef51627

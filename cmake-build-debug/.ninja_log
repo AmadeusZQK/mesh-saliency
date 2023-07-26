@@ -1,0 +1,25 @@
+# ninja log v5
+1	90	7120692568987694	build.ninja	cde7dd14afe0802b
+12	859	7120689296693528	CMakeFiles/untitled3.dir/Edge.cpp.obj	2beeac98ae0a5bc5
+3	830	7120689296393525	CMakeFiles/untitled3.dir/BoundingBox.cpp.obj	55296b62c520dd6c
+7	876	7120689296873527	CMakeFiles/untitled3.dir/Face.cpp.obj	ca0fa4b188319f2b
+25	908	7120689297183524	CMakeFiles/untitled3.dir/HalfEdge.cpp.obj	1a31cbae56721c21
+48	1052	7120689298619410	CMakeFiles/untitled3.dir/Vertex.cpp.obj	896004b67509be5f
+33	1764	7120689305721274	CMakeFiles/untitled3.dir/Mesh.cpp.obj	3bbdbdcf506eed9f
+19	1653	7120689304591284	CMakeFiles/untitled3.dir/MeshIO.cpp.obj	3eeb8eac886e6dad
+6	852	7120692599309302	CMakeFiles/mesh-saliency.dir/BoundingBox.cpp.obj	72df67f08c71471b
+0	856	7120692599329300	CMakeFiles/mesh-saliency.dir/Edge.cpp.obj	1967dbdee1d91a11
+30	886	7120692599655120	CMakeFiles/mesh-saliency.dir/Face.cpp.obj	f6a2e2157deb9877
+17	897	7120692599755120	CMakeFiles/mesh-saliency.dir/HalfEdge.cpp.obj	13e6700ad7362afb
+50	1042	7120692601205112	CMakeFiles/mesh-saliency.dir/Vertex.cpp.obj	4a8d2528ca5551ee
+11	1632	7120692607070791	CMakeFiles/mesh-saliency.dir/MeshIO.cpp.obj	f709fa2f9a7bf623
+22	1729	7120692608040790	CMakeFiles/mesh-saliency.dir/Mesh.cpp.obj	a704dcf8fb5db638
+8	1818	7120699715138974	CMakeFiles/mesh-saliency.dir/MeshIO.cpp.obj	f709fa2f9a7bf623
+3	1857	7120699715548973	CMakeFiles/mesh-saliency.dir/Mesh.cpp.obj	a704dcf8fb5db638
+3	872	7120700499965106	CMakeFiles/mesh-saliency.dir/BoundingBox.cpp.obj	72df67f08c71471b
+8	924	7120700500495105	CMakeFiles/mesh-saliency.dir/Edge.cpp.obj	1967dbdee1d91a11
+19	943	7120700500685107	CMakeFiles/mesh-saliency.dir/HalfEdge.cpp.obj	13e6700ad7362afb
+33	962	7120700500875105	CMakeFiles/mesh-saliency.dir/Face.cpp.obj	f6a2e2157deb9877
+42	1108	7120700502315110	CMakeFiles/mesh-saliency.dir/Vertex.cpp.obj	4a8d2528ca5551ee
+13	1726	7120700508475091	CMakeFiles/mesh-saliency.dir/MeshIO.cpp.obj	f709fa2f9a7bf623
+27	1771	7120700508935091	CMakeFiles/mesh-saliency.dir/Mesh.cpp.obj	a704dcf8fb5db638
